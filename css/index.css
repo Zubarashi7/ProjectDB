@@ -1,4 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@font-face {
+    font-family: 'San Francisco';
+    src: url('../public/assets/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'San Francisco';
+    src: url('../public/assets/fonts/SF-Pro-Display-Bold.otf') format('opentype');
+    font-weight: 700;
+}
+
 *{
-    font-family: 'Nunito';
+    font-family: 'San Francisco', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    order: -1;
+}
+
+.logo img {
+    width: 400px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-btn {
+    background: linear-gradient(to bottom right, #98ddee, #75b0f3);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+    background: linear-gradient(to bottom right, #98ddeecc, #75b0f3cc);
 }
