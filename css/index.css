@@ -29,7 +29,7 @@ header {
 }
 
 .logo img {
-    width: 400px;
+    width: 300px;
     height: auto;
 }
 
@@ -51,13 +51,13 @@ nav ul li a {
     font-weight: bold;
 }
 
-.signup-btn {
+.login-btn {
     background: linear-gradient(to bottom right, #98ddee, #75b0f3);
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
-.signup-btn:hover {
+.login-btn:hover {
     background: linear-gradient(to bottom right, #98ddeecc, #75b0f3cc);
 }
